@@ -2,7 +2,7 @@
 Работа с блоком сообщений (vk_api)
 
 Так как VK запретили работать с блоком messages.. 
-  vk_session = vk_api.VkApi(login=login, password=password) #Авторизация
+  vk_session = vk_api.VkApi(login=login, password=password)
   
 Стоит подменить App ID на App ID приложения, которое может работать с сообщениями. Например, Kate Mobile:
   app_id = '2685278'
